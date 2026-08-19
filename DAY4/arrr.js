@@ -39,7 +39,42 @@ console.log(
     "Last Index = ",
     message.lastIndexOf("JavaScript")
 );
+//6. slice()
 
+console.log(
+    "Slice =",
+    str.slice(0,7)
+);
+
+//7.split()
+
+let data="HTML,CSS,JavaScript";
+
+let result=data.split(",");
+
+console.log("Split =",result);
+
+//8. replace()
+
+let text="I Love Java";
+console.log(
+    text.replace("Java","JavaScript")
+    );
+
+//9. concat()
+
+let first="Sakshi";
+let last="Tulsyan";
+
+console.log(
+    first.concat(" ",last)
+);
+
+//Includes method
+console.log("\n====Includes=====")
+let course="JavaScript";
+console.log(course.includes("Script"));
+console.log(course.includes("Python"));
 
 
 
