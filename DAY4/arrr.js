@@ -75,7 +75,149 @@ console.log("\n====Includes=====")
 let course="JavaScript";
 console.log(course.includes("Script"));
 console.log(course.includes("Python"));
+//-------------------------------------
+// Array Object
+//-------------------------------------
 
+console.log("\n==== Array Object ====");
+
+let numbers = [10,20,30,40,50];
+
+console.log(numbers);
+
+//Access Array Element
+
+console.log(numbers[0]);
+console.log(numbers[3]);
+
+//-------------------------------------
+// Array Methods
+//-------------------------------------
+
+console.log("\n==== Array Methods ====");
+
+//Push
+
+numbers.push(25);
+console.log("After Push = ",numbers);
+
+//Pop
+
+numbers.pop();
+console.log("After Pop = ",numbers);
+
+//Unshift
+
+numbers.unshift(5);
+console.log(
+ "After Unshift = ",numbers
+);
+
+//Shift
+
+numbers.shift(4);
+console.log("After Shift = ",numbers);
+
+//-------------------------------------
+// Date Object
+//-------------------------------------
+
+console.log("\n===== Date Methods ====");
+
+let date =new Date();
+
+console.log(date);
+
+//Get Full Year
+
+console.log(
+    "Year =",
+    date.getFullYear()
+);
+
+//Get Month
+
+console.log(
+    "Month =",
+    date.getMonth()
+);
+
+//Get Date
+
+console.log(
+    "Date =",
+    date.getDate()
+);
+
+//Get Day
+
+console.log(
+    "Day =",
+    date.getDay()    
+);
+
+//Get Time
+console.log(
+    "Time =",
+    date.getTime()
+);
+
+//------------------------------------
+//Math Object
+//------------------------------------
+
+
+console.log("\n==== Math Object ====");
+
+console.log("PI =",Math.PI);
+
+//Maximum Value
+
+console.log(
+    "Maximum =",
+    Math.max(10,20,30,40)
+);
+//Minimum Value
+
+console.log(
+    "Minimum =",
+    Math.min(10,20,30,40)
+);
+
+//Round Value
+
+console.log(
+    "Round =",
+    Math.round(6.2)
+);
+
+//Floor Value
+
+console.log(
+    "Floor =",
+    Math.floor(5.8)
+);
+
+//Ceil Value
+
+console.log(
+    "Ceil =",
+    Math.ceil(5.2)
+);
+
+//Square Root
+
+console.log(
+    "Square Root =",
+    Math.sqrt(16)
+);
+
+//Power
+
+console.log(
+    "POwer =",
+    Math.pow(5,2)
+);
 
 
 
